@@ -1,43 +1,152 @@
-/* Main Page Stylings */
-body {margin: auto; width: 60%; background-color: #25170E; font-family: sans-serif;}
-#content {background: rgba(255,255,255,.9); padding: 10px 20px;}
-p {padding: 5px;}
+/* MAIN PAGE STYLINGS */
+body {
+margin: auto;
+width: 60%;
+background-color: #25170e;
+font-family: sans-serif;
+}
 
-/* Navigation Bar */
-#navigation {list-style-type: none; padding: 10px 0px; margin: 0px; text-align: center; border: 5px solid #25170E; border-radius: 35px;}
-#navigation li {display: inline;}
-#navigation a {padding: 5px 20px;}
+#content {
+background: rgba(255,255,255,.9);
+padding: 10px 20px;
+}
 
-/* Headings */
-h1 {font-family: 'Holtwood One SC', serif; text-align: center; margin: 0px; padding:5px; color: #992211;}
-h2 {text-align: center; margin-top: -10px; padding-top: 0px; font-weight: lighter;}
-h3 {background-color: #aa9966; color: #fff; padding: 5px; margin-top: 50px;}
-#aboutUs {margin-top: 20px;}
+p {
+padding: 5px;
+}
 
-/* Links */
-a:link {color: #cc2200; text-decoration: none;}
-a:visited {color: #661100; text-decoration: none;}
-a:hover {background-color: #25170E; border: 1px solid #25170E; color: #fff; border-radius: 35px;}
-a:active {text-decoration: underline;}
+/* NAVIGATION BAR */
+#navigation {
+list-style-type: none; 
+padding: 10px 0px; 
+margin: 0px; 
+text-align: center; 
+border: 5px solid #25170e; 
+border-radius: 35px;
+}
 
-/* Menu Section */
-strong.bonus {text-shadow: 1px 1px #fff;}
-ul.mlist {margin-bottom: 40px;}
-ul.mlist li {line-height: 125%;}
-ul.sauce li {line-height: 150%;}
-#mainmenu {list-style-type: decimal;}
-#sweets {margin-top: 30px;}
-p.mblurb {font-style: italic;}
+#navigation li {
+display: inline;
+}
 
-/* Locations & Addresses */
-p.addr {line-height: 125%;}
-span.addrline {display: block;}
+#navigation a {
+padding: 5px 20px;
+}
 
-/* Image Gallery */
-img {box-shadow: 5px 5px #000; margin-bottom: 10px; width: 250px; max-height: 250px;}
-a.pic:hover {background-color: transparent; border: 0px;}
-figcaption {font-style: oblique; width: 250px}
-figure {display: inline-block; width: 300px;}
+/* HEADINGS */
+h1 {
+font-family: 'Holtwood One SC', serif; 
+text-align: center; 
+margin: 0px; 
+padding:5px; 
+color: #992211;
+}
 
-/* Credit Footer */
-#credit {font-size: x-small; margin-bottom: 5px; padding-bottom: 0px; border-top: 1px solid #000;}
+h2 {
+text-align: center; 
+margin-top: -10px; 
+padding-top: 0px; 
+font-weight: lighter;
+}
+
+h3 {
+background-color: #aa9966; 
+color: #fff; 
+padding: 5px; 
+margin-top: 50px;
+}
+
+#aboutUs {
+margin-top: 20px;
+}
+
+/* LINKS */
+a:link {
+color: #cc2200; 
+text-decoration: none;
+}
+
+a:visited {
+color: #661100; 
+text-decoration: none;
+}
+
+a:hover {
+background-color: #25170E; 
+border: 1px solid #25170E; 
+color: #fff; 
+border-radius: 35px;
+}
+
+a:active {
+text-decoration: underline;
+}
+
+/* MENU SECTION */
+#mainmenu {
+list-style-type: decimal;
+}
+
+p.mblurb {
+font-style: italic;
+}
+
+ul.mlist {
+margin-bottom: 40px;
+}
+
+ul.mlist li {
+line-height: 125%;
+}
+
+ul.sauce li {
+line-height: 150%;
+}
+
+strong.bonus {
+text-shadow: 1px 1px #fff;
+}
+
+#sweets {
+margin-top: 30px;
+}
+
+/* LOCATIONS & ADDRESSES */
+p.addr {
+line-height: 125%;
+}
+
+span.addrline {
+display: block;
+}
+
+/* IMAGE GALLERY */
+figure {
+display: inline-block; 
+width: 300px;
+}
+
+img {
+box-shadow: 5px 5px #000; 
+margin-bottom: 10px; 
+width: 250px; 
+max-height: 250px;
+}
+
+a.pic:hover { /* Remove link effects from images. */
+background-color: transparent; 
+border: 0px;
+}
+
+figcaption {
+font-style: oblique; 
+width: 250px
+}
+
+/* CREDIT FOOTER */
+#credit {
+font-size: x-small; 
+margin-bottom: 5px; 
+padding-bottom: 0px; 
+border-top: 1px solid #000;
+}
