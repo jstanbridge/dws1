@@ -1,0 +1,186 @@
+/* STRUCTURE */
+body {
+background: url('../images/bonfire2.jpg') repeat top left fixed;
+margin: auto;
+width: 80%;
+background-color: #25170e;
+font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+background: rgba(255,255,255,.9);
+padding: 1% 2%;
+overflow: auto;
+}
+
+#head {
+background: url('../images/bbq.png') no-repeat 5% 0, url('../images/bbq.png') no-repeat 95% 0;
+width: 100%;
+overflow: auto;
+margin-bottom: 5%;
+}
+
+#content{ 
+width: 68%;
+margin-left: 4%;
+float: left;
+overflow: auto;
+}
+
+#lsidebar {
+width: 25%;
+float: left;
+overflow: auto;
+}
+
+#footer {
+width: 100%;
+clear: both;
+overflow: auto;
+}
+
+/* MAIN PAGE STYLINGS */
+p {
+padding: .3em;
+}
+
+/* NAVIGATION BAR */
+#navigation {
+list-style-type: none; 
+padding: 1% 0; 
+margin: 0px; 
+text-align: center; 
+border: .375em solid #25170e; 
+border-radius: 2.19em;
+}
+
+#navigation li {
+display: inline;
+}
+
+#navigation a {
+padding: .3em 1.25em;
+}
+
+#navigation a:hover {
+background-color: #25170E; 
+border: 1px solid #25170E; 
+color: #fff; 
+border-radius: 2.19em;
+}
+
+/* HEADINGS */
+h1 {
+font-family: 'Holtwood One SC', serif; 
+text-align: center; 
+margin: 0; 
+padding: .3em; 
+color: #992211;
+}
+
+h2 {
+text-align: center; 
+margin-top: -1%; 
+padding-top: 0; 
+font-weight: lighter;
+}
+
+h3 {
+color: #fff; 
+padding: .3em;
+background: rgb(201,194,139); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(201,194,139,1) 0%, rgba(170,153,102,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,194,139,1)), color-stop(100%,rgba(170,153,102,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(201,194,139,1) 0%,rgba(170,153,102,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(201,194,139,1) 0%,rgba(170,153,102,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(201,194,139,1) 0%,rgba(170,153,102,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(201,194,139,1) 0%,rgba(170,153,102,1) 100%); /* W3C */
+}
+
+/* LINKS */
+a:link {
+color: #cc2200; 
+text-decoration: none;
+}
+
+a:visited {
+color: #661100; 
+text-decoration: none;
+}
+
+a:hover {
+background-color: #25170E; 
+color: #fff; 
+}
+
+a:active {
+text-decoration: underline;
+}
+
+/* MENU SECTION */
+#mainmenu {
+list-style-type: decimal;
+}
+
+p.mblurb {
+font-style: italic;
+}
+
+ul.mlist {
+margin-bottom: 5%;
+}
+
+ul.mlist li {
+line-height: 125%;
+}
+
+ul.sauce li {
+line-height: 150%;
+}
+
+strong.bonus {
+text-shadow: 1px 1px #fff;
+}
+
+#sweets {
+margin-top: 3%;
+}
+
+/* LOCATIONS & ADDRESSES */
+p.addr {
+line-height: 125%;
+}
+
+span.addrline {
+display: block;
+}
+
+/* IMAGE GALLERY */
+figure {
+display: inline-block; 
+width: 43%;
+}
+
+img {
+box-shadow: .3em .3em #000; 
+margin-bottom: 3%; 
+width: 200%; 
+max-height: 200%;
+}
+
+a.pic:hover { /* Remove link effects from images. */
+background-color: transparent; 
+border: 0;
+}
+
+figcaption {
+font-style: oblique; 
+width: 150%;
+}
+
+/* CREDIT FOOTER */
+#credit {
+width: 95%;
+font-size: x-small; 
+padding-bottom: 0; 
+}
