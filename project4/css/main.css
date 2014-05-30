@@ -251,7 +251,8 @@ width: 150%;
 footer {
 width: 95%;
 font-size: x-small; 
-padding-bottom: 0; 
+padding-bottom: 0;
+clear: both; 
 }
 
 /* EXTRAS */
